@@ -18,8 +18,6 @@ export class EmpleadoComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  llamaEmpresa(value:String){
 
-  }
 
 }
