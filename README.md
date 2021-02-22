@@ -1,6 +1,9 @@
 # Miprimeraapp
 
+Ejercicios del curso del canal de [you tube](https://www.youtube.com/playlist?list=PLU8oAlHdN5BnNAe8zXnuBNzKID39DUwcO) píldoras informáticas
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+
 
 ## Development server
 
