@@ -13,11 +13,14 @@ export class EmpleadoComponent implements OnInit {
   apellido = 'Vargas';
   edad = 3;
   //empresa = 'Vaesco';
+  habilitacionCuadro = true;
+  usuarioRegistrado = false;
 
+  getRegistroUsuario(){
+    this.usuarioRegistrado = true;
+
+  }
   constructor() {}
 
   ngOnInit(): void {}
-
-
-
 }
