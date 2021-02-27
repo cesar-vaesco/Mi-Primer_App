@@ -15,9 +15,16 @@ export class EmpleadoComponent implements OnInit {
   //empresa = 'Vaesco';
   habilitacionCuadro = true;
   usuarioRegistrado = false;
+  textoDeRegistro = 'No hay nadie registrado';
 
-  getRegistroUsuario(){
-    this.usuarioRegistrado = true;
+  getRegistroUsuario() {
+    this.usuarioRegistrado = false;
+  }
+
+  setUsuarioRegistrado() {
+    //alert('Usuario se ha registrado....');
+   this.textoDeRegistro= 'El usuario se acaba de registrar';
+   alert(this.textoDeRegistro);
 
   }
   constructor() {}

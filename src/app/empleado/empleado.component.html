@@ -1,16 +1,18 @@
 <p>Nombre del empleado: {{nombre}}</p>
 <p>Apellido del empleado: {{apellido}}</p>
 <p>Edad del empleado: {{edad}} - {{edad<18 ? 'Menor de edad' : 'Mayor de edad' }}</p>
-<p>Empresa del empleado: {{empresa.value}}</p>
+        <p>Empresa del empleado: {{empresa.value}}</p>
 
-Introduce la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionCuadro">
+        Introduce la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionCuadro">
 
-<br>
-<br>
+        <br>
+        <br>
+        {{textoDeRegistro}}
+        <br>
+        <br>
+        Registrado: <input type="checkbox" id="registro" [checked]="usuarioRegistrado" (click)="setUsuarioRegistrado()" />
 
-Registrado: <input type="checkbox" id="registro" [checked]="usuarioRegistrado"/>
+        <!--Ver inout como objeto  - Propiedades de un input -->
+        <!-- disabled -->
 
-<!--Ver inout como objeto  - Propiedades de un input -->
-<!-- disabled -->
-
-<p>{{ getRegistroUsuario() }}</p>
+        <p>{{ getRegistroUsuario() }}</p>
