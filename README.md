@@ -11,7 +11,16 @@ Ejercicios del curso de canal de [you tube](https://www.youtube.com/playlist?lis
 
 El [Evento](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events) - (desencadenante de la acción) que vincula datos entre un archivo .ts y un archivo .html
 
-Revisar eventos en angular: (https://www.w3schools.com/angular/angular_events.asp)
+Event binding permite la vinculación de eventos le permite escuchar y responder a las acciones del usuario, como pulsaciones de teclas, movimientos del mouse, clics y toques.
+
+Más sobre vinculación de eventos ->  [link](https://angular.io/guide/event-binding)
+
+Revisar eventos en angular: [link](https://www.w3schools.com/angular/angular_events.asp)
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+## -> INFO DE ANGULAR <-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 

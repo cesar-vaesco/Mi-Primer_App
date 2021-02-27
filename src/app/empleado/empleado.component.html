@@ -10,8 +10,10 @@
         {{textoDeRegistro}}
         <br>
         <br>
-        Registrado: <input type="checkbox" id="registro" [checked]="usuarioRegistrado" (click)="setUsuarioRegistrado()" />
+        Registrado: <input type="radio" value="si" name="nRegistro" id="registro" [checked]="usuarioRegistrado"
+            (click)="setUsuarioRegistrado($event)" />
 
+        no registrado: <input type="radio" value="no" name="nRegistro" (click)="setUsuarioRegistrado($event)">
         <!--Ver inout como objeto  - Propiedades de un input -->
         <!-- disabled -->
 
